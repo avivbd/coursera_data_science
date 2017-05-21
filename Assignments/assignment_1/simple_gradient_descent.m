@@ -15,7 +15,8 @@ function [] = simple_gradient_descent()
     disp(A\b)
     
     plot(log10(rtols))
-    
+    xlabel('iterations')
+    ylabel('log rtol')
 end
 
 
